@@ -15,6 +15,7 @@
 		BFFF06232519B6F800FCFD5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFF06212519B6F800FCFD5D /* LaunchScreen.storyboard */; };
 		BFFF062E2519B6F800FCFD5D /* calenderAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF062D2519B6F800FCFD5D /* calenderAppTestTests.swift */; };
 		BFFF06392519B6F800FCFD5D /* calenderAppTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFF06382519B6F800FCFD5D /* calenderAppTestUITests.swift */; };
+		BFFF064E2519B8A600FCFD5D /* carthage.sh in Resources */ = {isa = PBXBuildFile; fileRef = BFFF064D2519B8A600FCFD5D /* carthage.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BFFF06342519B6F800FCFD5D /* calenderAppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calenderAppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFF06382519B6F800FCFD5D /* calenderAppTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderAppTestUITests.swift; sourceTree = "<group>"; };
 		BFFF063A2519B6F800FCFD5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFF064D2519B8A600FCFD5D /* carthage.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = carthage.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		BFFF060A2519B6F700FCFD5D = {
 			isa = PBXGroup;
 			children = (
+				BFFF064C2519B89400FCFD5D /* Env */,
 				BFFF06152519B6F700FCFD5D /* calenderAppTest */,
 				BFFF062C2519B6F800FCFD5D /* calenderAppTestTests */,
 				BFFF06372519B6F800FCFD5D /* calenderAppTestUITests */,
@@ -126,6 +129,14 @@
 				BFFF063A2519B6F800FCFD5D /* Info.plist */,
 			);
 			path = calenderAppTestUITests;
+			sourceTree = "<group>";
+		};
+		BFFF064C2519B89400FCFD5D /* Env */ = {
+			isa = PBXGroup;
+			children = (
+				BFFF064D2519B8A600FCFD5D /* carthage.sh */,
+			);
+			name = Env;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				BFFF06232519B6F800FCFD5D /* LaunchScreen.storyboard in Resources */,
 				BFFF06202519B6F800FCFD5D /* Assets.xcassets in Resources */,
 				BFFF061E2519B6F700FCFD5D /* Main.storyboard in Resources */,
+				BFFF064E2519B8A600FCFD5D /* carthage.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
